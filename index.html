@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybersecurity – General & Technical Overview</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, #0ea5e9, #22c55e);
+      padding: 60px 20px;
+      text-align: center;
+      color: #020617;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 15px;
+    }
+    h3 {
+      color: #22c55e;
+      margin-top: 30px;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #020617;
+      border-radius: 14px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+    }
+    .card h4 {
+      margin-top: 0;
+      color: #eab308;
+    }
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 25px;
+      color: #94a3b8;
+    }
+    .tag {
+      display: inline-block;
+      background: #1e293b;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin-top: 10px;
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Cybersecurity</h1>
+  <p>Protecting systems, networks, and data from digital attacks — explained from basic concepts to deep technical examples.</p>
+</header>
+
+<section>
+  <h2>What is Cybersecurity?</h2>
+  <p>
+    <strong>Cybersecurity</strong> is the practice of protecting computers, servers, networks, applications, and data from unauthorized access, attacks, damage, or theft.
+  </p>
+  <p>
+    In simple terms: it ensures that your digital life — emails, bank accounts, cloud servers, mobile apps — stays safe from hackers and malicious software.
+  </p>
+
+  <h3>General Example</h3>
+  <p>
+    When you lock your house to prevent thieves, that’s physical security. When you use a password and OTP to protect your email or bank account, that’s cybersecurity.
+  </p>
+
+  <h3>Technical Example</h3>
+  <p>
+    A web application protected using HTTPS, firewall rules, intrusion detection systems (IDS), encrypted databases, and role-based access control (RBAC) is an example of cybersecurity in action.
+  </p>
+</section>
+
+<section>
+  <h2>Origin of Cybersecurity</h2>
+  <p>
+    Cybersecurity originated in the <strong>1970s</strong> when computers began communicating over networks.
+  </p>
+  <ul>
+    <li><strong>1971:</strong> Creeper Virus — first known computer virus</li>
+    <li><strong>1980s:</strong> Rise of personal computers and early malware</li>
+    <li><strong>1990s:</strong> Internet expansion → firewalls and antivirus software</li>
+    <li><strong>2000s–Present:</strong> Cloud security, AI-based attacks, zero-trust models</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Types of Cybersecurity</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h4>Network Security</h4>
+      <p>Protects networks from intrusions using firewalls, IDS/IPS, and secure routing.</p>
+      <div class="tag">Firewalls • IDS • VPN</div>
+    </div>
+
+    <div class="card">
+      <h4>Application Security</h4>
+      <p>Secures software from vulnerabilities like SQL Injection and XSS.</p>
+      <div class="tag">OWASP • Secure Coding</div>
+    </div>
+
+    <div class="card">
+      <h4>Information Security</h4>
+      <p>Protects data confidentiality, integrity, and availability (CIA triad).</p>
+      <div class="tag">Encryption • DLP</div>
+    </div>
+
+    <div class="card">
+      <h4>Cloud Security</h4>
+      <p>Secures cloud infrastructure, services, and workloads.</p>
+      <div class="tag">AWS • IAM • Zero Trust</div>
+    </div>
+
+    <div class="card">
+      <h4>Endpoint Security</h4>
+      <p>Protects devices like laptops and mobiles from malware.</p>
+      <div class="tag">EDR • Antivirus</div>
+    </div>
+
+    <div class="card">
+      <h4>Operational Security</h4>
+      <p>Defines policies for handling and protecting sensitive operations.</p>
+      <div class="tag">Policies • Access Control</div>
+    </div>
+
+    <div class="card">
+      <h4>IoT Security</h4>
+      <p>Secures smart devices such as cameras, sensors, and wearables.</p>
+      <div class="tag">Firmware • Device Auth</div>
+    </div>
+
+    <div class="card">
+      <h4>Critical Infrastructure Security</h4>
+      <p>Protects power grids, hospitals, and transportation systems.</p>
+      <div class="tag">SCADA • ICS</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Cybersecurity Matters</h2>
+  <p>
+    Cyberattacks can lead to financial loss, data breaches, service outages, and even national security threats.
+  </p>
+  <p>
+    With the growth of AI, cloud computing, and IoT, cybersecurity is no longer optional — it is essential.
+  </p>
+</section>
+
+<footer>
+  <p>Built as a static website • Ready for GitHub Pages • Cybersecurity 101</p>
+</footer>
+
+</body>
+</html>
